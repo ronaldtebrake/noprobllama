@@ -15,7 +15,7 @@ def generate_response(prompt):
     final_prompt = "\n".join(history)
 
     data = {
-        "model":"codellama",
+        "model":"llama3",
         "prompt":final_prompt,
         "stream":False
     }
